@@ -1,6 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Task.Domain.Entites;
-using Task.Domain.Lookups;
 using Task.Shared.Data.Repository;
 
 namespace Task.DatabaseMigration

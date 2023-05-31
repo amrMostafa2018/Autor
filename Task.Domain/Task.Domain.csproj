@@ -15,4 +15,8 @@
     <ProjectReference Include="..\Task.Data.Repository\Task.Data.Repository.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Lookups\" />
+  </ItemGroup>
+
 </Project>
