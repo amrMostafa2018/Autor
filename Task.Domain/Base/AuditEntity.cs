@@ -6,8 +6,8 @@ namespace Task.Domain.Base
 {
     public class AuditEntity<T> :  BaseEntity<T> , IAuditEntity
     {
-        public DateTime CreationDate { get; set; } = DateTime.Now;
-        public DateTime? ModificationDate { get; set; }
+        public DateTime CreationOn { get; set; } = DateTime.Now;
+        public DateTime? ModificationOn { get; set; }
 
     }
 }

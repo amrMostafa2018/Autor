@@ -34,10 +34,8 @@ namespace Task.Application
             services.AddScoped(typeof(UserManager<>), typeof(UserManager<>));
 
    
-            services.AddScoped<ITeamService, TeamService>();     
-            services.AddScoped<ITeamMemberService, TeamMemberService>();     
-            services.AddScoped<ITeamScheduleService, TeamScheduleService>();     
-
+  
+            services.AddScoped<INewsService, NewsService>();     
             return services;
         }
     }

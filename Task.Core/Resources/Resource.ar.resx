@@ -117,19 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="InvalidPublishedDate" xml:space="preserve">
+    <value>عفوا .. تاريخ النشر يكون اكبر من تاريخ اليوم</value>
+  </data>
+  <data name="NewsNotFound" xml:space="preserve">
+    <value> عفوا .. لا يوجد أخبار برقم {0}</value>
+  </data>
   <data name="ServerError" xml:space="preserve">
     <value>عفوا .. برجاء التواصل مع الدعم الفنى</value>
-  </data>
-  <data name="TeamHasMemeberSameNumber" xml:space="preserve">
-    <value>عفوا .. يوجد عضو فى الفريق بنفس الرقم  {0}</value>
-  </data>
-  <data name="TeamMemberNotFound" xml:space="preserve">
-    <value>عفوا .. لا يوجد عضو فريق برقم  {0}</value>
-  </data>
-  <data name="TeamNotFound" xml:space="preserve">
-    <value>عفوا .. لا يوجد فريق برقم  {0}</value>
-  </data>
-  <data name="TwoTeamsIsSame" xml:space="preserve">
-    <value>عفوا .. الفريقين هما واحد  برقم {0}</value>
   </data>
 </root>

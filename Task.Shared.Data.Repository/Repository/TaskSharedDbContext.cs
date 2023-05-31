@@ -18,9 +18,8 @@ namespace Task.Shared.Data.Repository
             base.OnModelCreating(modelBuilder);
         }
 
-        public DbSet<Team> Team { get; set; }
-        public DbSet<TeamMemeber> TeamMemeber { get; set; }
-        public DbSet<TeamSchedule> TeamSchedule { get; set; }
+        public DbSet<Author> Author { get; set; }
+        public DbSet<News> News { get; set; }
 
     }
 }

@@ -4,7 +4,7 @@ namespace Task.Domain.Base
 {
     public interface IAuditEntity
     {
-        public DateTime CreationDate { get; set; } 
-        public DateTime? ModificationDate { get; set; }
+        public DateTime CreationOn { get; set; } 
+        public DateTime? ModificationOn { get; set; }
     }
 }

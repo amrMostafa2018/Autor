@@ -117,19 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="InvalidPublishedDate" xml:space="preserve">
+    <value>Sorry .. Publish Date Must Greater Than Today Date </value>
+  </data>
+  <data name="NewsNotFound" xml:space="preserve">
+    <value>Sorry .. News Not Found with Id  {0}</value>
+  </data>
   <data name="ServerError" xml:space="preserve">
     <value>Please .. Contact With Technical Support</value>
-  </data>
-  <data name="TeamHasMemeberSameNumber" xml:space="preserve">
-    <value>Sorry .. Team Has Memeber Same Number : {0}</value>
-  </data>
-  <data name="TeamMemberNotFound" xml:space="preserve">
-    <value>Sorry .. Not Found Team Member With Id : {0}</value>
-  </data>
-  <data name="TeamNotFound" xml:space="preserve">
-    <value>Sorry .. Not Found Team With Id : {0}</value>
-  </data>
-  <data name="TwoTeamsIsSame" xml:space="preserve">
-    <value>Sorry .. Two Teams Is Same With Id : {0}</value>
   </data>
 </root>

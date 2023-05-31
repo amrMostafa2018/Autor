@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
 namespace Task.Domain.Enums
 {
-    public enum PaymentGetways
+    public enum NewsType
     {
-        ApplePay = 1
+        Normal = 1,
+        News = 2,
+        Opinion = 3
     }
 }
